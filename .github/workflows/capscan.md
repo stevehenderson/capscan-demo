@@ -75,7 +75,7 @@ safe-outputs:
         jq -r '.items[] | select(.type == "add_comment") | .body' "$AGENT_OUTPUT" > "$RUNNER_TEMP/capscan-report.md"
         bash .github/aw/capscan/verify-report.sh "$RUNNER_TEMP/capscan-report.md" \
           github.com docs.github.com go.dev pkg.go.dev nodejs.org www.npmjs.com docs.npmjs.com expressjs.com hub.docker.com
-source: stevehenderson/capscan@278028f463de31938d1fc0107e88f9c74307e95a
+source: stevehenderson/capscan@ebfb7f8cdda4beffed1bf8b5bdc08b6d9b8410c7
 ---
 
 # capscan: capability review for a Dependabot pull request
