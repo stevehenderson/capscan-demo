@@ -12,7 +12,7 @@ Look at the [pull requests](https://github.com/stevehenderson/capscan-demo/pulls
 | `go-inventory/` | A small Go API routed by gorilla/mux, with `go 1.21` in `go.mod` and a `golang:1.21-alpine` base image |
 | `node-catalog/` | A small Express API that uses `dotenv`, `node-fetch`, `nodemon`, and `jest`, pinned to Node 18 |
 | `.github/dependabot.yml` | Weekly Dependabot updates for Go modules, npm, Docker base images, and actions |
-| `.github/workflows/capscan.md`, `capscan-sweep.md` | The capscan workflows, installed with `gh aw add stevehenderson/capscan@v1.0.0` |
+| `.github/workflows/capscan.md`, `capscan-sweep.md` | The capscan workflows, installed with `gh aw add stevehenderson/capscan@v1.0.1` |
 | `.github/workflows/*.lock.yml` | The GitHub Actions workflows that `gh aw` compiled from them |
 | `.github/aw/capscan/` | The rules and scripts the workflows use, installed by the same command |
 | `.github/aw/packages/` | gh-aw's record of the installed package version and file digests |

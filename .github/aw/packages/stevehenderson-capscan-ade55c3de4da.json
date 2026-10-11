@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "package": "stevehenderson/capscan",
-  "source": "stevehenderson/capscan@278028f463de31938d1fc0107e88f9c74307e95a",
-  "resolvedCommit": "278028f463de31938d1fc0107e88f9c74307e95a",
+  "source": "stevehenderson/capscan@ebfb7f8cdda4beffed1bf8b5bdc08b6d9b8410c7",
+  "resolvedCommit": "ebfb7f8cdda4beffed1bf8b5bdc08b6d9b8410c7",
   "installer": "gh-aw v0.89.21",
   "files": [
     {
       "source": "plugin/skills/capscan/RULES.md",
       "destination": ".github/aw/capscan/RULES.md",
-      "sha256": "9159a6aca7f85eb0b0790f99c28d281a29e36b5c8e50395ce436c04ce2ade71f"
+      "sha256": "b3c124ba5e36e5708b31eae53637679439c239e7132cddd4fee06948b237d674"
     },
     {
       "source": "plugin/skills/capscan/scripts/gather-facts.sh",
@@ -18,17 +18,17 @@
     {
       "source": "plugin/skills/capscan/scripts/verify-report.sh",
       "destination": ".github/aw/capscan/verify-report.sh",
-      "sha256": "ae1215175d1b09f4ae34e8011f87d5ca5ede876b7451daf19257064b1a809068"
+      "sha256": "bd31369a1a6a83eeaf1a8ebcba619ea508468676efff067259b2f4ee208ccd2b"
     },
     {
       "source": "workflows/capscan-sweep.md",
       "destination": ".github/workflows/capscan-sweep.md",
-      "sha256": "6362e2c4856b5afcbef2fa024548bae057b1e76ff1fb94e61aa377f7891139ee"
+      "sha256": "57a432949bf65972de31cd9c4ef9ddc7a04b6eb2897a99c6e30299c47e732439"
     },
     {
       "source": "workflows/capscan.md",
       "destination": ".github/workflows/capscan.md",
-      "sha256": "56baf2dfc621f90418bd95b96fb4394a87ea7ae52608579441d9f9d6573f8f00"
+      "sha256": "373c706df7f16c6451afd6abc083c54d017eecf02c0a00064d18763fc6f9a9e5"
     }
   ]
 }
